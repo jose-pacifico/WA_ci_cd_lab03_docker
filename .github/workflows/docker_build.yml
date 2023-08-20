@@ -23,7 +23,7 @@ jobs:
           context: ./
           push: true
           dockerfile: ./Dockerfile
-          tags: jose-pacifico/webacademy:latest
+          tags: josepacifico/webacademy:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
